@@ -1,0 +1,8 @@
+1. Habilitar las apis
+2. Crear la Consent screen
+3. Habilitar credenciales (OAuth y Api Access) 
+	-OAuth create new client ID de Web Application
+		-Download Json (obtenemos el archivo client_secrets.json)
+	-Create new key de Browser Key
+4. Descomprimir google-api-python-client-gae-1.2.zip en la carpeta del código 
+5. Mover los archivos de gflags en la carpeta del código fuente
