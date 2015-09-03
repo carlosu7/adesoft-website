@@ -1,9 +1,0 @@
-import datetime
-import time
-import calendar
-
-class EstTzinfo(datetime.tzinfo):
-  def utcoffset(self, dt): return datetime.timedelta(hours=-5)
-  def dst(self, dt): return datetime.timedelta(0)
-  def tzname(self, dt): return 'EST+05EDT'
-  def olsen_name(self): return 'US/Eastern'
